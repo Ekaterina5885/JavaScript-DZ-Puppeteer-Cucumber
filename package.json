@@ -1,0 +1,19 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "description": "home work",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cucumber": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.1",
+    "chai": "^4.3.4",
+    "jest": "^27.3.1",
+    "jest-puppeteer": "^6.0.1",
+    "puppeteer": "^11.0.0"
+  }
+}
