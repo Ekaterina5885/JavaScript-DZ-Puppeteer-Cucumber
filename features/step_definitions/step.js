@@ -25,18 +25,18 @@ Given("user is on {string} page", async function (string) {
   });
 });
 When("user choose day", async function () {
-  await clickElement(this.page, ".page-nav > a:nth-child(4)");
+  await clickElement(this.page, ".page-nav > a:nth-child(5)");
 });
 When("user choose time", async function () {
   await clickElement(this.page, "a.movie-seances__time");
 });
-When("user select 1 row 1 seat", async function () {
+When("user select 1 row 10 seat", async function () {
   await clickElement(this.page, ".buying-scheme__row > span:nth-child(10)");
 });
-When("user select 1 row 2 seat", async function () {
+When("user select 1 row 8 seat", async function () {
   await clickElement(this.page, ".buying-scheme__row > span:nth-child(8)");
 });
-When("user select 1 row 3 seat", async function () {
+When("user select 1 row 9 seat", async function () {
   await clickElement(this.page, ".buying-scheme__row > span:nth-child(9)");
   });
 When("user select the booked place", async function () {
